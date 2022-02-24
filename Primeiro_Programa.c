@@ -13,8 +13,8 @@ int main(){
     scanf("%d",&num);
     
     // Este programa foi o primeiro exercicio realizado;
-    // O programa imprimir√° os n primeiros naturais pares;
-    // Zero ser√° considerado um n√∫mero natural par;
+    // O programa imprimir· os n primeiros naturais pares;
+    // Zero ser· considerado um n˙mero natural par;
     
     
         if(num == 0){
