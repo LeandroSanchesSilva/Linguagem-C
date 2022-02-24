@@ -9,17 +9,18 @@ int main(){
 
     setlocale(LC_ALL,"portuguese");
 
-    printf("\n Digite um número n inteiro positivo: \n");
+    printf("\n Digite um nÃºmero n inteiro positivo: \n");
     scanf("%d",&num);
     
-    // O programa imprimirá os n primeiros naturais pares;
-    // Zero será considerado um número natural par;
+    // Este programa foi o primeiro exercicio realizado;
+    // O programa imprimirÃ¡ os n primeiros naturais pares;
+    // Zero serÃ¡ considerado um nÃºmero natural par;
     
     
         if(num == 0){
-            printf("\n O primeiro número natural par é o %d \n",num);
+            printf("\n O primeiro nÃºmero natural par Ã© o %d \n",num);
         }else{
-            printf("\n Os %d primeiros números naturais são:",num);
+            printf("\n Os %d primeiros nÃºmeros naturais sÃ£o:",num);
             for(cont=0; cont<num; cont++){
                 printf("\n %d",par);
                 par = par + 2;
